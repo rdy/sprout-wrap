@@ -23,8 +23,10 @@ recipes:
 # development (rails)
 - sprout-rbenv
 - sprout-ruby
-- sprout-mysql
 - sprout-postgresql
+#- sprout-mysql
+- sprout-osx-apps::node_js
+- sprout-osx-apps::qt
 
 # apps
 - sprout-osx-apps::iterm2
@@ -67,7 +69,7 @@ node_attributes:
       auto_hide: true
       clear_apps: true
       tile_size: 35
-      magnification': false
+      magnification': false      
     homebrew:
       formulae:
         - ctags-exuberant
@@ -85,13 +87,13 @@ node_attributes:
         - rbenv-binstubs
         - rbenv-gem-rehash
       casks:
-        - ccmenu
+        - dropbox
         - firefox
-        - gitx-rowanj
         - github
-        - google-chrome
         - google-drive
-        - google-hangouts
+        - google-chrome        
+        - google-hangouts        
+        - shiftit
         - skype
         - textmate
         - vagrant
