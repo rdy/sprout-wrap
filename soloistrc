@@ -106,3 +106,12 @@ node_attributes:
         - virtualbox
         - xquartz
         - xscope
+  bash_it:
+    enabled_plugins:
+      aliases:
+        - git
+      plugins:
+        - git
+        - node
+        - rbenv
+    theme: minimal
